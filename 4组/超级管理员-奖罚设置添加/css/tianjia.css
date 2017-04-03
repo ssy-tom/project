@@ -1,0 +1,45 @@
+body,ul,li,a,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,i,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    border: 0;
+    outline:0;
+    font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI Web Light",
+    "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol",
+    "Helvetica Neue", Arial;
+}
+*{
+    box-sizing:border-box;
+}
+.rightbox{
+    width:800px;
+    height: 650px;
+    float: right;
+    background-color:#EAEAEA;
+    padding: 1.5%;
+}
+.rigbotoom{
+    width: 100%;
+    height: 100px;
+}
+.rigbotoom>li{
+    width: 24%;
+    height: 100px;
+    background-color: #fff;
+    color: #5AC66C;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+.rigbotoom>.tianjia{
+    background-color: #BBBBBB;
+}
+.tianjia>span{
+    color: #fff;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,67 @@
+body,ul,li,a,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,i,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    border: 0;
+    outline:0;
+    font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI Web Light",
+    "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol",
+    "Helvetica Neue", Arial;
+}
+*{
+    box-sizing:border-box;
+}
+.rightbox{
+    width: 800px;
+    height:auto;
+    float: right;
+    position: relative;
+    padding: 1.5%;
+}
+.boxc{
+    width: 100%;
+    height:auto;
+}
+.boxc>li{
+    width:30%;
+    height:75px;
+    background-color: #000;
+    float: left;
+    margin-right: 5%;
+    position: relative;
+    color: #fff;
+}
+.boxc>li:nth-of-type(3n){
+    margin-right: 0;
+}
+.boxc>li>a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    font-size: 24px;
+}
+.boxc>li>img{
+    position: relative;
+    left: 138px;
+    top:37px;
+}
+.boxc>li{
+    background:linear-gradient(to left top,transparent 50%,#5AC66C 0) no-repeat 100% 100%
+    / 1.6em 1.6em, linear-gradient( 315deg,transparent 1.07em,#5AC66C 0);
+    position: relative;
+
+}
+.boxc>li:after{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height:26px;
+    background:linear-gradient(to left top,transparent 50%,rgba(0,0,0,0.1) 0) no-repeat 100% 100%
+    / 1.6em 1.6em, linear-gradient( 315deg,transparent 1.07em,rgba(0,0,0,0.2) 0);
+    bottom: 0;
+    right: 0;
+
+}

@@ -1,0 +1,94 @@
+body,ul,li,a,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,i,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    border: 0;
+    outline:0;
+    font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI Web Light",
+    "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol",
+    "Helvetica Neue", Arial;
+}
+*{
+    box-sizing:border-box;
+}
+.rightbox{
+    width:800px;
+    height: 650px;
+    float: right;
+    background-color:#EAEAEA;
+    padding: 1.5%;
+}
+@font-face{
+    font-family: "fontss";
+    src: url(../font/AkzidenzGrotesk-BoldCondAlt.otf);
+}
+.rigbotoom{
+    width: 100%;
+    height: 100px;
+}
+.rigbotoom>li{
+    width: 24%;
+    height: 100px;
+    background-color: #fff;
+    color: #5AC66C;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+.rigbotoom>li:nth-of-type(1):hover{
+    background-color: #5AC66C;
+    box-shadow: 0 0 10px #5AC66C;
+}
+.rigbotoom>li:nth-of-type(1):hover .shangtop>p{
+     color: #fff;
+ }
+.rigbotoom>li:nth-of-type(1):hover .rqian>span{
+    color: #fff;
+}
+.rigbotoom>li:nth-of-type(1):hover .xiabotm>p{
+    color: #fff;
+}
+.rigbotoom>li:nth-of-type(1):hover .shangtop{
+    border-bottom: 1px solid #fff;
+}
+
+.rigbotoom>li>.shangtop{
+    height: 76px;
+    border-bottom: 1px solid #5AC66C;
+}
+.rigbotoom>li>.shangtop>p{
+    font-size: 18px;
+    line-height: 76px;
+    padding-left: 15px;
+    float: left;
+}
+.rigbotoom>li>.shangtop>.rqian{
+    float: right;
+    line-height: 76px;
+    padding-right: 15px;
+}
+.rigbotoom>li>.shangtop>.rqian>span{
+    font-size: 18px;
+    font-family: fontss;
+}
+.rigbotoom>li>.shangtop>.rqian>.jia{
+    font-size: 30px;
+}
+.rigbotoom>li>.shangtop>.rqian>.shu{
+    font-size: 30px;
+}
+.rigbotoom>li>.shangtop>.rqian>.fuhao{
+    color: #666666;
+}
+
+.xiabotm{
+    height: 24px;
+}
+.xiabotm>p{
+    font-size: 10px;
+    padding-left: 15px;
+    line-height: 24px;
+    color: #000;
+}
