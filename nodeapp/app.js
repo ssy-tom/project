@@ -8,12 +8,11 @@ var bodyParser = require('body-parser');
 let teacher = require('./routes/teacher');
 let superManager = require('./routes/super');
 let student = require('./routes/student');
+let timeManager=require("./sql/timeUpdate");
+timeManager.timeUpdate();
 
 var app = express();
 console.log(__dirname);
-
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
